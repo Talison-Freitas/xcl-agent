@@ -41,11 +41,13 @@ body {
 
 .logo img {
   display: block;
-  max-width: 130px;
+  max-width: 100%;
+  width: 120px;
+  height: auto;
   cursor: pointer;
 }
 .content-text {
-  padding-top: 20px;
+  padding-top: clamp(2vh, 5vh, 10vh);
 }
 .content-text h1 {
   font-size: 3.8rem;
