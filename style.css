@@ -42,6 +42,7 @@ body {
 .logo img {
   display: block;
   max-width: 130px;
+  cursor: pointer;
 }
 .content-text {
   padding-top: 120px;
